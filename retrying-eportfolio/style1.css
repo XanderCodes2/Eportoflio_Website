@@ -1,0 +1,159 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#Pfp {
+  width: 100px; 
+  height: auto; 
+}
+#AlphaZ {
+  width: 100px; 
+  height: auto; 
+}
+ body {
+
+    background-color: #64645b;
+
+   background-size: cover;
+   background-position: center;
+
+   color: #7a7a7a;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #121212;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: #929292;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex-basis: 30%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    /* CSS for column and pictures */
+    .column {
+      width: 60%;
+      float: left;
+      padding: 20px;
+      color: #d1d6b2;
+    }
+
+    .image {
+      width: 30%;
+      float: left;
+      padding: 20px;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #263021;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+
+.title {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.contact-box {
+  background-color: #000000;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.contact-info {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.twitter-link {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  background-color: #4f7a28;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.twitter-link:hover {
+  background-color: #b1dd8c;
+}
